@@ -1,3 +1,18 @@
+export const dynamic = "force-dynamic";
+
+export async function POST(req: Request) {
+  try {
+    return Response.json({
+      message: "Interview created successfully",
+    });
+  } catch (error) {
+    return Response.json(
+      { error: "Something went wrong" },
+      { status: 500 }
+    );
+  }
+}
+
 import { logger } from "@/lib/logger";
 import { InterviewService } from "@/services/interviews.service";
 import { nanoid } from "nanoid";
