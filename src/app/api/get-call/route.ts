@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { logger } from "@/lib/logger";
 import { generateInterviewAnalytics } from "@/services/analytics.service";
 import { ResponseService } from "@/services/responses.service";
