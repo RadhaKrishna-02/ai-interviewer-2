@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { logger } from "@/lib/logger";
 import { SYSTEM_PROMPT, generateQuestionsPrompt } from "@/lib/prompts/generate-questions";
 import { NextResponse } from "next/server";
