@@ -1,5 +1,3 @@
-export const dynamic = "force-dynamic";
-
 import { INTERVIEWERS, RETELL_AGENT_GENERAL_PROMPT } from "@/lib/constants";
 import { logger } from "@/lib/logger";
 import { InterviewerService } from "@/services/interviewers.service";
