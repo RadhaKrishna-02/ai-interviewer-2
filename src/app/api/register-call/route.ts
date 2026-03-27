@@ -1,4 +1,3 @@
-export const dynamic = "force-dynamic";
 import { logger } from "@/lib/logger";
 import { InterviewerService } from "@/services/interviewers.service";
 import { NextResponse } from "next/server";
